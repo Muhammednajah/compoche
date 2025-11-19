@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">Business Manager</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Dashboard</a></li>
+                    <li><a href="links/employees.html">Employees</a></li>
+                    <li><a href="links/clients.html">Clients</a></li>
+                    <li><a href="links/inventory.html">Inventory</a></li>
+                    <li><a href="links/tasks.html">Tasks</a></li>
+                    <li><a href="links/settings.html">Settings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Dashboard</h1>
+        
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>Total Employees</h3>
+                <div class="value" id="total-employees">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Total Clients</h3>
+                <div class="value" id="total-clients">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Total Inventory Items</h3>
+                <div class="value" id="total-inventory">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Total Tasks</h3>
+                <div class="value" id="total-tasks">0</div>
+            </div>
+        </div>
+        
+        <div class="dashboard-grid" style="margin-top: 30px;">
+            <div class="card">
+                <h3>Low Stock Items</h3>
+                <div class="value" id="low-stock">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Completed Tasks</h3>
+                <div class="value" id="completed-tasks">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Pending Tasks</h3>
+                <div class="value" id="pending-tasks">0</div>
+            </div>
+            
+            <div class="card">
+                <h3>Overdue Tasks</h3>
+                <div class="value" id="overdue-tasks">0</div>
+            </div>
+        </div>
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="links/js/storage.js"></script>
+    <script src="links/js/dashboard.js"></script>
+</body>
+</html>
