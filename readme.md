@@ -1,6 +1,6 @@
-# Business Man
+# Compoche
 
-Welcome to **Business Man**!  
+Welcome to **Compoche**!  
 This is a fun, professional, and open-source dashboard to help you manage employees, clients, inventory, and tasks—all saved right in your browser (no database needed)! ✨
 
 ---
@@ -75,6 +75,7 @@ This is a fun, professional, and open-source dashboard to help you manage employ
 
 Open source, licensed under the [LICENSE](LICENSE) file.  
 Use, share, remix, and spread the word—all in the spirit of open source collaboration!
+See the website at [https://compoche.netlify.app/](https://compoche.netlify.app/)
 
 ---
 
